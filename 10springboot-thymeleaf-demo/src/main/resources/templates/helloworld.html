@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+
+<html xmlns:th="http://wwww.thymeleaf.org">
+
+<head>
+	<title>My thymeleaf page</title>
+	<link rel="stylesheet" th:href="@{/css/demo.css}" />
+</head>
+
+<body>
+
+	<p class="funny" th:text="'This is the time: ' + ${theDate}" />
+</body>
+
+</html>
